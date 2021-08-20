@@ -160,10 +160,12 @@ exclude:
   - '*.json'
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories, tags, services]
   layouts:
     category: category
     tag: tag
+    services: services
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    services: /services/:name/
